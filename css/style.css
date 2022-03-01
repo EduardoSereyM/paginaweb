@@ -82,6 +82,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 .about-text{
     width: 50%;
@@ -102,19 +103,98 @@
     padding-right: 3px;
     color: #43B6FF;
 }
-/* .about img{
-    margin-left: 30px;
-} */
+.about-icon a i:hover{
+    transform: scale(1.1);
+    color: #2f88c0;
+    transition: all .4s ;
+}
+.about-icon{
+    margin: 15px 0;
+}
+.about-text button{
+    background: rgb(143, 78, 228);
+    color: #43B6FF;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px 15px;
+}
+.about-text button:hover{
+    opacity: .8;
+    color: rgb(37, 196, 37);
+}
+
+/* SERVICE */
+
+   
+.service{
+    margin: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.content-service h3 span i{
+    color: #2f88c0;
+    font-size: 12px;
+}
+.content-service h3{
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.content-service span::before{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 2px;
+    background-color: rgb(227, 51, 243);
+    position: absolute;
+    left: 20px;
+    top: 50%;
+}
+.content-service span::after{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 2px;
+    background-color: rgb(227, 51, 243);
+    position: absolute;
+    right: 20px;
+    top: 50%;
+}
+.item h2{
+    margin: 10px 0;
+    color: #43B6FF;
+}
+.item p{
+    margin: 20px 0;
+    color: #43B6FF;
+}
+.items-service{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 120px;
+    margin-top: 60px;
+}
+.item{
+    display: grid;
+}
+.item >img{
+    justify-self: center;
+    width: 150px;
+}
+
 
 
 
 /* 
-.about{
-   
-}
-.service{
-    
-}
 .resume{
     
 }
