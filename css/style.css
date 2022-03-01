@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* FONTS */
+
+/* body{
+    background: linear-gradient(180deg, rgb(114, 112, 112), rgb(49, 49, 49)) no-repeat;
+} */
+
+/* CONTAINER */
+
+.container{
+    margin: 0 auto;
+    /* background: lightcyan; */
+    width:90%;
+}
+
+/* NAV */
+
+.nav{
+    background: #000;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    margin: 7px 30px;
+
+
+}
+.nav ul{
+    margin-right: 35px;
+    list-style-type: none;
+    display: flex;
+}
+.nav ul a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: azure;
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+.nav ul li a:hover{
+    border-bottom: 2px solid rgb(131, 202, 16);
+}
+
+/* HOME */
+
+.home{
+    margin: 80px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-text{
+    width: 50%;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+.home-text h2{
+    font-size: 30px;
+}
+.home-text h3{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.home img{
+    margin-right: 30px;
+}
+
+
+/* ABOUT */
+
+.about{
+    margin: 80px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-text{
+    width: 50%;
+    margin-left: 30px;
+}
+.about-text h2{
+    font-size: 30px;
+}
+.about-text h3{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.about-text p{
+    margin: 10px 0 20px 0;
+}
+.about-icon a i{
+    font-size: 40px;
+    padding-right: 3px;
+    color: #43B6FF;
+}
+/* .about img{
+    margin-left: 30px;
+} */
+
+
+
+/* 
+.about{
+   
+}
+.service{
+    
+}
+.resume{
+    
+}
+.portfolio{
+   
+}
+.latestnews{
+   
+}
+.contactme{
+    
+}
+.footer{
+    
+} */
