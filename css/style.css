@@ -126,30 +126,33 @@
 /* SERVICE */
 
    
-.service{
+.service, .resume{
     margin: 80px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.content-service{
+.content-service, .content-resume{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
-.content-service h3 span i{
+.content-service p, .content-resume p{
+width: 70%;
+text-align: center;
+}
+.content-service h3 span i, .content-resume h3 span i{
     color: #2f88c0;
     font-size: 12px;
 }
-.content-service h3{
+.content-service h3, .content-resume h3{
     position: relative;
     margin-bottom: 25px;
     margin-top: 15px;
 }
-.content-service span::before{
+.content-service span::before, .content-resume span::before{
     content: "";
     display: block;
     width: 90px;
@@ -159,7 +162,7 @@
     left: 20px;
     top: 50%;
 }
-.content-service span::after{
+.content-service span::after, .content-resume span::after{
     content: "";
     display: block;
     width: 90px;
@@ -169,35 +172,103 @@
     right: 20px;
     top: 50%;
 }
-.item h2{
-    margin: 10px 0;
-    color: #43B6FF;
-}
-.item p{
-    margin: 20px 0;
-    color: #43B6FF;
-}
 .items-service{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 120px;
-    margin-top: 60px;
+    gap: 40px;
+    padding-top: 60px;
 }
 .item{
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.item:hover{
+    background: #fceffddc;
+    transition: .5s;
 }
 .item >img{
-    justify-self: center;
-    width: 150px;
+    align-self: center;
+    width: 100px;
+}
+.item h2{
+    padding: 10px 0;
+    color: #43B6FF;
+}
+.item p{
+    padding-right: 10px;
+    color: #43B6FF;
+    text-align:justify;
 }
 
+/* RESUME */
+
+.resume{
+display: flex;
+flex-direction: column;
+}
+
+.cv{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.resume-single-full{
+    
+    border-left: 2px dotted #000;
+    padding-left: 25px;
+    position: relative;
+}
+.resume-single-full p{
+padding-bottom: 60px;
+}
+.resume-single h2{
+    padding: 15px 0;
+}
+.resume-single .title{
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+.resume-icon {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+    left: -9px;
+    margin-top: 4.5px;
+}
+.resume-label {
+    background: #ff4d57;
+    padding: 0px 13px;
+    line-height: 26px;
+    letter-spacing: .75px;
+    font-size: 12px;
+    color: #fff;
+    position: relative;
+    margin-left: 10px;
+    background-clip: padding-box;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.resume-label::after {
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: -9px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13px 9px 13px 0;
+    border-color: transparent #ff4d57 transparent transparent;
+}
 
 
 
 /* 
-.resume{
-    
-}
 .portfolio{
    
 }
@@ -210,3 +281,35 @@
 .footer{
     
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
