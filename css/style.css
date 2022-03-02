@@ -148,7 +148,7 @@
 .service, .resume, .portfolio{
     margin: 80px 100px;
     display: flex;
-flex-direction: column;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -257,7 +257,7 @@ padding-bottom: 60px;
     height: 20px;
     background-size: cover;
     position: absolute;
-    left: -9px;
+    left: -34px;
     margin-top: 4.5px;
 }
 .resume-label {
