@@ -9,29 +9,30 @@
     <script src="https://kit.fontawesome.com/33c9f9cf46.js" crossorigin="anonymous"></script>
     <!-- ESTILOS -->
     <link rel="stylesheet" href="css/style.css">
-
     <title>Mi Pagina Web</title>
 </head>
 <body>
-
+    <div class="go-up">
+        <i class="fa-solid fa-angles-up"></i>
+    </div>
+    
     <div class="container"> 
 
         <div class="nav">
-
             <img class="logo" src="img/icono250px-perfilicono.png" alt="">
 
             <ul class="links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Latest News</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
             </ul>
         </div>
 
         <div class="home">
+            <a name="home"></a>
             <div class="home-text">
                 <h3>HELLO</h3>
                 <h2><i>I'm</i> Eduardo Javier Serey Mansilla</h2>
@@ -42,6 +43,7 @@
         </div>
 
         <div class="about">
+            <a name="about"></a>
             <img src="img/Humaaans - Wireframe.png" class="about-image" alt="Fotografia principal">
             <div class="about-text">
                 <h3>WHO AM I</h3>
@@ -59,10 +61,10 @@
         </div>
 
         <div class="service">
-
-            <div class="content-service">
+            <a name="service"></a>
+            <div class="content-service content">
                 <h2 class="content-title">What Can I Do</h2>
-                <h3><span><i class="fa-regular fa-circle-dot"></i></span></h3>
+                <h3><span><i class="fa-solid fa-ellipsis"></i></span></h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id rem dolor libero, consequuntur veniam cupiditate. Dolore consequatur corrupti perferendis nam!</p>
             </div>
             <div class="items-service">
@@ -101,9 +103,10 @@
         </div>
 
         <div class="resume">
-            <div class="content-resume">
+            <a name="resume"></a>
+            <div class="content-resume content">
                 <h2 class="resume-title">My Resume</h2>
-                <h3><span><i class="fa-regular fa-circle-dot"></i></span></h3>
+                <h3><span><i class="fa-solid fa-ellipsis"></i></span></h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id rem dolor libero, consequuntur veniam cupiditate. Dolore consequatur corrupti perferendis nam!</p>
             </div>
             <div class="cv">
@@ -206,23 +209,46 @@
         </div>
 
         <div class="portfolio">
-            <p>portfolio</p>
-        </div>
+            <a name="portfolio"></a>
+            <div class="content-portfolio content">
+                <h2 class="content-title">My Portfolio</h2>
+                <h3><span><i class="fa-solid fa-ellipsis"></i></span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id rem dolor libero, consequuntur veniam cupiditate. Dolore consequatur corrupti perferendis nam!</p>
+            </div>
 
-        <div class="latestnews">
-            <p>latestnews</p>
+            <div class="items-portfolio">
+                <div class="item-p">
+                    <img src="img/pexels-portfolio1.jpg" alt="">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident debitis nam corporis est eaque perspiciatis laborum voluptas rerum asperiores tenetur!</p>
+                </div>
+                <div class="item-p">
+                    <img src="img/pexels-portfolio2.jpg" alt="">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident debitis nam corporis est eaque perspiciatis laborum voluptas rerum asperiores tenetur!</p>
+                </div>
+                <div class="item-p">
+                    <img src="img/pexels-portfolio3.jpg" alt="">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident debitis nam corporis est eaque perspiciatis laborum voluptas rerum asperiores tenetur!</p>
+                </div>
+            </div>
+
         </div>
 
         <div class="contactme">
-            <p>contactme</p>
+            <a name="contactme"></a>
+            
         </div>
-
     </div>
 
     <div class="footer">
-        <p>footer</p>
+        <p>©️Copyright 2022</p>
+        <p> <i>All rights reserved.</i>&nbsp;  Powered by <strong>Eduardo Serey M.</strong>  </p>
     </div>
 
+
+    <script src="js/js.js"></script>
 </body>
 </html>
 
