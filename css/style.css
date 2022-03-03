@@ -262,9 +262,13 @@ body{
     flex-direction: column;
     padding: 5px;
 }
-.item >img{
+.item img{
     align-self: center;
-    width: 100px;
+}
+.img-itm{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
 }
 .item h2{
     text-align: center;
