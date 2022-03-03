@@ -436,6 +436,11 @@ color: #5cc52c;
     color:#FFD234;
 }
 
+@media screen and (max-width:960px) {
+    .container{
+        width: 100%;
+    }
+}
 
 
 @media screen and (max-width:1100px) {
@@ -525,6 +530,9 @@ color: #5cc52c;
 
 
 @media screen and (max-width:690px) {
+    .container{
+        width: 100%;
+    }
     .home img, .about img{
         min-width: 180px;
     }
