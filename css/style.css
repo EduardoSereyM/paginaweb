@@ -37,7 +37,7 @@ body{
 /* BOTON GO-UP */
 
 .go-up{
-	background:#9d95eb;
+	background:#000000;
 	bottom:0px;
 	display: flex;
 	width:40px;
@@ -45,13 +45,13 @@ body{
 	position: fixed;
 	right:8px;
     bottom: 260px;
-    border: 1px solid brown;
+    border: 1px solid tomato;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 2px 12px rgb(112, 112, 112);
-    font-size: 15px;
-    color: #5cc52c;
+    box-shadow: 3px 3px 18px rgb(112, 112, 112);
+    font-size: 17px;
+    color: #FFD234;
 }
 
 .go-up:hover{
@@ -101,6 +101,7 @@ body{
 }
 .nav ul li a:hover{
     border-bottom: 2px solid rgb(131, 202, 16);
+    color: #FFD234;
 }
 
 
@@ -128,8 +129,10 @@ body{
     /* margin: 10px 0; */
     font-size: 20px;
 }
-.home img{
-    margin-right: 30px;
+.home img, .about img{
+    width: 400px;
+    /* margin-right: 30px; */
+    opacity: .7;
 }
 .home-text p, .about-text p{
     color: #fff;
@@ -208,6 +211,7 @@ body{
     /* margin: 15px 40px 0 0; */
 }
 .img-tec-cont{
+    padding-top: 30px;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
@@ -357,7 +361,7 @@ justify-content: space-evenly;
     align-self: center;
     font-size: 40px;
     font-weight: lighter;
-    color: #5F82E8;
+    color:deeppink;
 
 }
 .pad{
@@ -368,7 +372,7 @@ justify-content: space-evenly;
 }
 .address{
 font-size: 25px;
-color: #FFD234;
+color: #5cc52c;
 }
 .add-bx{
     display: flex;
@@ -386,9 +390,8 @@ color: #FFD234;
 
 }
 .soc-icon:hover{
-    transform: translateY(-10px);
     color: #DBB017;
-    transition: all .3s ease-in;
+    transition: all .2s ease-in;
 
 
 }
