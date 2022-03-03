@@ -9,13 +9,30 @@ html {
     scroll-behavior: smooth;
 }
 
+:root{
+    --1:#1537A2;
+    --2:#2D394B;
+    --3:#FFD234;
+    --4:#FFFFFF;
+    --5:#DBB017;
+    --6:#1D4DDC;
+    --7:#1748C8;
+    --8:#202020;
+    --9:#5F82E8;
+    --10:#434343;
+}
+
+
+
 /* FONTS */
 
 /* body{
     background: linear-gradient(180deg, rgb(114, 112, 112), rgb(49, 49, 49)) no-repeat;
 } */
 
-
+body{
+    background:var(--8) ;
+}
 
 /* BOTON GO-UP */
 
@@ -48,14 +65,14 @@ html {
 
 .container{
     margin: 0 auto;
-    /* background: lightcyan; */
+    background: var(--1);
     width:90%;
 }
 
 /* NAV */
 
 .nav{
-    background: #000;
+    background: var(--2) ;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -78,7 +95,7 @@ html {
 .nav ul a{
     margin: 0 10px;
     text-decoration: none;
-    color: azure;
+    color: #3982BA;
     padding: 0 7px;
     cursor: pointer;
 }
@@ -90,7 +107,7 @@ html {
 /* HOME */
 
 .home{
-    margin: 200px 100px;
+    margin: 130px 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -100,15 +117,37 @@ html {
     margin-right: 30px;
     margin-left: 15px;
 }
-.home-text h2{
+.home-text h2, .about-text h2{
+    padding: 10px 0;
     font-size: 30px;
+    color: #FFD234;
 }
-.home-text h3{
-    margin: 10px 0;
+
+.home-text h3, .about-text h3{
+    color: #3982BA;
+    /* margin: 10px 0; */
     font-size: 20px;
 }
 .home img{
     margin-right: 30px;
+}
+.home-text p, .about-text p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.home-text a, .button-cv{
+    border: none;
+    border-radius: 7px;
+    background: var(--3);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12PX;
+    font-weight: 600;
+}
+.home-text a:hover, .button-cv:hover{
+    transition: .6s;
+    background: var(--5);
 }
 
 
@@ -126,47 +165,29 @@ html {
     width: 50%;
     margin-left: 30px;
 }
-.about-text h2{
-    font-size: 30px;
-}
-.about-text h3{
-    margin: 10px 0;
-    font-size: 20px;
-}
-.about-text p{
-    margin: 10px 0 20px 0;
-}
-.about-icon a i{
+
+.about-icon a{
     font-size: 40px;
     padding-right: 3px;
-    color: #43B6FF;
-}
-.about-icon a i:hover{
-    transform: scale(1.1);
     color: #2f88c0;
+}
+.about-icon a:hover{
+    transform: scale(1.5);
+    color: #4badeb;
     transition: all .4s ;
 }
 .about-icon{
     margin: 15px 0;
 }
-.about-text button{
-    background: rgb(143, 78, 228);
-    color: #43B6FF;
-    font-weight: bold;
-    margin-top: 15px;
-    padding: 10px 15px;
-}
-.about-text button:hover{
-    opacity: .8;
-    color: rgb(37, 196, 37);
-}
+
+
 
 /* SERVICE */
 
    
 .service, .resume, .portfolio{
-    margin: 200px 100px;
-    padding-top: 80px;
+    margin: 30px 100px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -179,10 +200,22 @@ html {
     justify-content: center;
 }
 
+.item .img-tec{
+    width: 50px;
+    margin: 15px 10px 0 0;
+    /* background: #000; */
+}
+
+.img-tec-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 .content p{
-width: 70%;
-text-align: center;
+    width: 70%;
+    text-align: center;
 }
 .content h3 span i{
     color: #2f88c0;
@@ -193,6 +226,7 @@ text-align: center;
     margin-bottom: 25px;
     /* margin-top: 5px; */
 }
+
 .content span::before{
     content: "";
     display: block;
@@ -233,20 +267,24 @@ text-align: center;
     width: 100px;
 }
 .item h2{
+    text-align: center;
     padding: 10px 0;
     color: #43B6FF;
 }
 .item p{
+    text-align: center;
+    padding: 10¿¿5px 10px 0 0;
     padding-right: 10px;
     color: #43B6FF;
-    text-align:justify;
+    text-align:center;
 }
 
 /* RESUME */
 
-.resume{
-display: flex;
-flex-direction: column;
+.content-resume {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
 }
 
 .cv{
@@ -339,6 +377,11 @@ padding-bottom: 60px;
     padding-right: 15px;
     color: #43B6FF;
     text-align:justify;
+}
+.content-portfolio {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* CONTACT ME */
