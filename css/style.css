@@ -470,10 +470,10 @@ color: #5cc52c;
         border-radius: 20px;
         box-shadow: 5px 5px 15px rgb(0, 0, 0);
         margin-bottom: 20px;
+        margin-top: 40px;
     }
     .about img{
         margin-top: 30px;
-        margin-left: 25px ;
     }
     .items-service{
         display: grid;
