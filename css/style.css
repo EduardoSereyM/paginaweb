@@ -479,7 +479,7 @@ color: #5cc52c;
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
-        padding: 60px 50px;
+        padding: 55px 50px;
     }
     .content p{
         width: 90%;
@@ -507,8 +507,8 @@ color: #5cc52c;
     }
     .go-up{
         z-index: 1;
-        right:42px;
-        bottom: 114px;
+        right:9px;
+        bottom: 9px;
     }
     .item, .item-p{
         padding-bottom: 10px;
@@ -539,7 +539,10 @@ color: #5cc52c;
         padding: 0;
     }
     .items-service{
-        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 45px 50px;
     }
     .item-p p {
         padding-right: 0;
