@@ -103,7 +103,7 @@ body{
 .nav ul a{
     margin: 0 10px;
     text-decoration: none;
-    color: #3982BA;
+    color: #FFD234;
     padding: 0 7px;
     cursor: pointer;
 }
@@ -538,7 +538,7 @@ color: #5cc52c;
         background: #000000;
         height: 100vh;
         padding: 20px;
-        padding-top: 50px;
+        padding-top: 55px;
         opacity: .6;
         transform: translateX(-300px);
         transition: transform 1s ease;
