@@ -99,17 +99,20 @@ body{
     padding-right: 30px;
     list-style-type: none;
     display: flex;
+    text-decoration: none;
 }
-.nav ul a{
+
+.nav ul li a{
     margin: 0 10px;
     text-decoration: none;
     color: #FFD234;
     padding: 0 7px;
     cursor: pointer;
+    border: none;
+    transition: all .2s;
 }
 .nav ul li a:hover{
-    border-bottom: 2px solid rgb(131, 202, 16);
-    color: #FFD234;
+    border-bottom: #2bf319 solid;
 }
 
 
