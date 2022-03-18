@@ -344,15 +344,20 @@ body{
 .img-p{
     grid-area: img ;
     width: 100%;
+    background: none;
+    
 }
 
 .item-p a img{
     width: 100%;
+    box-shadow: 10px 10px 19px #000000;
+    border-radius: 10px;
     aspect-ratio: 2/1;
 }
 
 .portdata{
     grid-area: data;
+    
 }
 
 .item-p h2{
