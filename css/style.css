@@ -43,7 +43,7 @@ body{
 /* BOTON GO-UP */
 
 .go-up{
-	background:#000000;
+	background:#4a5dcc;
 	bottom:0px;
 	display: flex;
 	width:40px;
@@ -51,19 +51,19 @@ body{
 	position: fixed;
 	right:8px;
     bottom: 260px;
-    border: 1px solid tomato;
+    border: 1px solid rgb(255, 251, 0);
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     box-shadow: 3px 3px 18px rgb(112, 112, 112);
     font-size: 17px;
-    color: #FFD234;
+    color: #ffee00;
 }
 
 .go-up:hover{
     color: rgb(208, 255, 1);
     transform: scale(1.1,1.1);
-    transition:all .5s ease-in-out;
+    transition:all .3s ease-in-out;
 }
 
 .menu-btn{
