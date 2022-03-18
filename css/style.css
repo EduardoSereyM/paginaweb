@@ -291,6 +291,7 @@ body{
 .contItem{
     grid-area: content;
     align-self: flex-start;
+    /* align-self: center; */
 }
 .img-tec-cont{
     grid-area: icons;
@@ -311,6 +312,7 @@ body{
     aspect-ratio: 1/1;
 }
 .item h2{
+    height: 55px;
     text-align: center;
     color: #FFD234;
 }
@@ -527,6 +529,10 @@ justify-content: space-evenly;
         border: 0;
         margin: 0;
     }
+    .item h2{
+        height: auto;
+
+    }
     .item-p {
         width: 90%;
         display: flex;
@@ -537,6 +543,10 @@ justify-content: space-evenly;
     .item-p p {
         text-align: center;
         color: #fff;
+    }
+    .img-tec-cont {
+        margin-top: 0;
+        padding-top: 0;
     }
     .portfolio{
         margin: 15px 0;
